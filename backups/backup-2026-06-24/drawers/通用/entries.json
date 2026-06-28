@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "id": "b6f453ec-9595-4363-b3de-de347fbfc51d",
+      "drawerPath": [
+        "通用"
+      ],
+      "timestamp": "2026-06-14T15:21:37.136Z",
+      "content": "2026-06-14 全天完整记录 --drawer 个人/规则",
+      "originalContent": "2026-06-14 全天完整记录 --drawer 个人/规则",
+      "sourceLang": "zh",
+      "type": "client_note",
+      "summary": "个人规则记录",
+      "keywords": [
+        "规则",
+        "个人",
+        "记录"
+      ],
+      "storedBy": "general-clerk-1"
+    },
+    {
+      "id": "184f158e-0cc5-499b-8479-df3311ac475a",
+      "drawerPath": [
+        "通用"
+      ],
+      "timestamp": "2026-06-14T15:21:47.240Z",
+      "content": "工作规则 --drawer 个人/规则",
+      "originalContent": "工作规则 --drawer 个人/规则",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "个人工作规则记录",
+      "keywords": [
+        "工作规则",
+        "个人",
+        "规则"
+      ],
+      "storedBy": "general-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-14T15:21:37.135Z",
+    "path": [
+      "通用"
+    ]
+  }
+}

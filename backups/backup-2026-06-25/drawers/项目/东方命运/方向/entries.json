@@ -1,0 +1,79 @@
+{
+  "entries": [
+    {
+      "id": "20b4af56-eb7c-455a-ae7d-9ce87d808836",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "方向"
+      ],
+      "timestamp": "2026-06-16T00:27:18.925Z",
+      "content": "HUTING确认方向①：Base44造铲子模式→西方塔罗师/占星师/灵性教练。痛点：想做中国玄学内容但不会中文。铲子：月费.99，每月10份AI生成的中国玄学专题解读（英文），他们改一改发给自己客户。优势：已有Eastern Destiny AI引擎，边际成本几乎为零。MRR目标：100用户×.99=/月。 --drawer 项目/东方命运/方向",
+      "originalContent": "HUTING确认方向①：Base44造铲子模式→西方塔罗师/占星师/灵性教练。痛点：想做中国玄学内容但不会中文。铲子：月费.99，每月10份AI生成的中国玄学专题解读（英文），他们改一改发给自己客户。优势：已有Eastern Destiny AI引擎，边际成本几乎为零。MRR目标：100用户×.99=/月。 --drawer 项目/东方命运/方向",
+      "sourceLang": "zh",
+      "type": "idea",
+      "summary": "Base44铲子模式：西方玄学师的中国玄学内容工具",
+      "keywords": [
+        "Base44",
+        "铲子模式",
+        "中国玄学",
+        "西方玄学师",
+        "AI生成",
+        "月费订阅"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "39d8413e-d2dd-46c5-a770-ef3bfd74e5e2",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "方向"
+      ],
+      "timestamp": "2026-06-16T04:47:55.635Z",
+      "content": "瑞草集（Sage Dispatch）正式立项，项目文件夹在E盘。三省六部讨论结果3:1推荐Sage Dispatch。节奏：先调研推敲→再设计→再开发，不动代码先想清楚。HUTING确认是这个节奏。",
+      "originalContent": "瑞草集（Sage Dispatch）正式立项，项目文件夹在E盘。三省六部讨论结果3:1推荐Sage Dispatch。节奏：先调研推敲→再设计→再开发，不动代码先想清楚。HUTING确认是这个节奏。 --drawer 项目/东方命运/方向",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "瑞草集立项，节奏先调研再设计开发",
+      "keywords": [
+        "瑞草集",
+        "立项",
+        "调研",
+        "设计",
+        "开发"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "611870d0-46c3-4ba5-84d7-14f17ce3a937",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "方向"
+      ],
+      "timestamp": "2026-06-16T14:05:52.960Z",
+      "content": "方向① Sage Dispatch 立项：Base44造铲子模式，面向西方塔罗师/占星师/灵性教练，月费.99提供AI生成的中国玄学英文解读，MRR目标/月。执行方案已出：direction1-execution-plan.md --drawer 项目/东方命运/方向",
+      "originalContent": "方向① Sage Dispatch 立项：Base44造铲子模式，面向西方塔罗师/占星师/灵性教练，月费.99提供AI生成的中国玄学英文解读，MRR目标/月。执行方案已出：direction1-execution-plan.md --drawer 项目/东方命运/方向",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "Sage Dispatch立项，面向西方灵性教练",
+      "keywords": [
+        "Sage Dispatch",
+        "立项",
+        "西方塔罗师",
+        "中国玄学",
+        "MRR"
+      ],
+      "storedBy": "proj-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-16T00:27:18.924Z",
+    "path": [
+      "项目",
+      "东方命运",
+      "方向"
+    ]
+  }
+}

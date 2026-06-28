@@ -1,0 +1,7 @@
+# 百斗柜 - 项目忽略文件
+# 数据目录（记忆内容）：不上传 git，但需要备份！
+data/
+node_modules/
+.env
+*.log
+.cabinet-linked

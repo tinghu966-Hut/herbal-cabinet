@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "id": "d766d4fc-d401-4c66-9e5d-27466fe8333d",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "ClaudeCode安装方案"
+      ],
+      "timestamp": "2026-06-11T15:55:54.824Z",
+      "content": "HUTING 睡前布置新任务：明天要一份装Claude Code（Claude Code）的可行性方案。包括：安装方式、环境要求、费用成本、和现有系统（DeepSeek/OpenClaw）的兼容性、日常使用方案。 --drawer 项目\\龙虾\\ClaudeCode安装方案",
+      "originalContent": "HUTING 睡前布置新任务：明天要一份装Claude Code（Claude Code）的可行性方案。包括：安装方式、环境要求、费用成本、和现有系统（DeepSeek/OpenClaw）的兼容性、日常使用方案。 --drawer 项目\\龙虾\\ClaudeCode安装方案",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "布置Claude Code安装方案任务",
+      "keywords": [
+        "Claude Code",
+        "安装方案",
+        "可行性"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "5a3b3380-3318-4a9f-8a46-6f337dd108f4",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "ClaudeCode安装方案"
+      ],
+      "timestamp": "2026-06-11T19:03:17.565Z",
+      "content": "Claude Code可行性方案已完成，详见 memory/claude-code-feasibility-report.md --drawer 项目\\龙虾\\ClaudeCode安装方案",
+      "originalContent": "Claude Code可行性方案已完成，详见 memory/claude-code-feasibility-report.md --drawer 项目\\龙虾\\ClaudeCode安装方案",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "Claude Code可行性方案完成",
+      "keywords": [
+        "Claude Code",
+        "可行性方案",
+        "安装方案"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "29cf1132-2517-442f-a796-ec0cfc9ccf92",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "ClaudeCode安装方案"
+      ],
+      "timestamp": "2026-06-12T03:29:23.628Z",
+      "content": "龙虾保姆 v2.0 可行性报告已完成 — 推荐执行。 --drawer 项目/龙虾保姆",
+      "originalContent": "龙虾保姆 v2.0 可行性报告已完成 — 推荐执行。 --drawer 项目/龙虾保姆",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "龙虾保姆v2.0可行性报告完成",
+      "keywords": [
+        "龙虾保姆",
+        "v2.0",
+        "可行性报告"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "b1cb2d59-f506-43dd-a9e6-9461df1b0efd",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "ClaudeCode安装方案"
+      ],
+      "timestamp": "2026-06-12T03:30:22.629Z",
+      "content": "2026-06-12 完整记录：Claude Code安装+Phase1安全加固+龙虾保姆v2.0方案 --drawer 项目/综合日志",
+      "originalContent": "2026-06-12 完整记录：Claude Code安装+Phase1安全加固+龙虾保姆v2.0方案 --drawer 项目/综合日志",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "Claude Code安装与安全加固",
+      "keywords": [
+        "Claude Code",
+        "安全加固",
+        "龙虾保姆v2.0"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "6c41a399-cd75-4559-a81a-63efe3aaaede",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "ClaudeCode安装方案"
+      ],
+      "timestamp": "2026-06-12T03:34:09.346Z",
+      "content": "产品定义：麻辣小龙虾(合并龙虾保姆+龙虾技能包)，Windows桌面可视化OpenClaw安装+技能管理软件，定价¥99，目标国内小白用户 --drawer 项目/麻辣小龙虾",
+      "originalContent": "产品定义：麻辣小龙虾(合并龙虾保姆+龙虾技能包)，Windows桌面可视化OpenClaw安装+技能管理软件，定价¥99，目标国内小白用户 --drawer 项目/麻辣小龙虾",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "麻辣小龙虾软件产品定义",
+      "keywords": [
+        "麻辣小龙虾",
+        "OpenClaw",
+        "Windows桌面"
+      ],
+      "storedBy": "proj-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-11T15:55:54.823Z",
+    "path": [
+      "项目",
+      "龙虾",
+      "ClaudeCode安装方案"
+    ]
+  }
+}

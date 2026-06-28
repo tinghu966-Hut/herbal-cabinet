@@ -1,0 +1,57 @@
+{
+  "name": "herbal-cabinet",
+  "version": "2.0.0",
+  "description": "Herbal Cabinet — A local-first memory container for humans and AI. Structured, searchable, and yours to own.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./shopkeeper": "./src/shopkeeper.js",
+    "./clerk": "./src/clerk.js",
+    "./cabinet": "./src/cabinet.js",
+    "./indexer": "./src/indexer.js",
+    "./classifier": "./src/classifier.js",
+    "./api-client": "./src/api-client.js",
+    "./locale": "./src/locale.js",
+    "./lock": "./src/lock.js"
+  },
+  "bin": {
+    "herbal-cabinet": "./src/cli.js",
+    "hc": "./src/cli.js",
+    "hc-server": "./src/server.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "store": "node src/cli.js store",
+    "recall": "node src/cli.js recall",
+    "status": "node src/cli.js status",
+    "init": "node src/cli.js init",
+    "server": "node src/server.js",
+    "reindex": "node src/cli.js reindex",
+    "export": "node src/cli.js export",
+    "backup": "node src/backup.js",
+    "help": "node src/cli.js"
+  },
+  "keywords": [
+    "memory",
+    "container",
+    "local-first",
+    "LLM",
+    "AI",
+    "knowledge-management",
+    "note-taking",
+    "openclaw"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "data/",
+    "README.md",
+    "CONCEPT.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "id": "4d4eeee7-234a-4570-9a60-bec627791d4e",
+      "drawerPath": [
+        "项目进度"
+      ],
+      "drawer": "项目进度",
+      "time": "2026-06-24T00:58:46.051Z",
+      "timestamp": "2026-06-24T00:58:46.051Z",
+      "tags": [],
+      "source": "对话",
+      "reason": "未填写",
+      "content": "HUTING在知乎发布了百斗柜市场调研问题，问题聚焦AI记忆弱这个痛点。方案A已被采纳并发布。同日还完成了：saashunt评估（不推荐）、Quora I Ching在线vs硬币回复准备、Twitter竞品分析（Jing Gao @jingtheory，建议先观察）",
+      "originalContent": "HUTING在知乎发布了百斗柜市场调研问题，问题聚焦AI记忆弱这个痛点。方案A已被采纳并发布。同日还完成了：saashunt评估（不推荐）、Quora I Ching在线vs硬币回复准备、Twitter竞品分析（Jing Gao @jingtheory，建议先观察）",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "AI记忆弱痛点调研与竞品分析",
+      "keywords": [
+        "百斗柜",
+        "AI记忆",
+        "市场调研",
+        "竞品分析"
+      ],
+      "storedBy": "项目进度-clerk-1"
+    },
+    {
+      "id": "6429ce9a-c3da-410b-b5e1-caf061544725",
+      "drawerPath": [
+        "项目进度"
+      ],
+      "drawer": "项目进度",
+      "time": "2026-06-24T05:50:48.877Z",
+      "timestamp": "2026-06-24T05:50:48.877Z",
+      "tags": [],
+      "source": "对话",
+      "reason": "未填写",
+      "content": "HUTING在Reddit r/AIAgents发布了AI记忆痛点调研帖，标题'How do you handle agent memory in production?'。Reddit账号申诉后首次发帖成功，r/iching测试回复正常，账号确认已解封。",
+      "originalContent": "HUTING在Reddit r/AIAgents发布了AI记忆痛点调研帖，标题'How do you handle agent memory in production?'。Reddit账号申诉后首次发帖成功，r/iching测试回复正常，账号确认已解封。",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "AI记忆痛点调研帖发布成功",
+      "keywords": [
+        "AI记忆",
+        "生产环境",
+        "Reddit发帖"
+      ],
+      "storedBy": "项目进度-clerk-1"
+    },
+    {
+      "id": "eff9b5d5-2fc1-4597-b860-0a1ed7f55a98",
+      "drawerPath": [
+        "项目进度"
+      ],
+      "drawer": "项目进度",
+      "time": "2026-06-24T12:40:09.665Z",
+      "timestamp": "2026-06-24T12:40:09.665Z",
+      "tags": [],
+      "source": "对话",
+      "reason": "未填写",
+      "content": "百斗柜产品计划报告完成。三省六部联席会议产出：中书省确认市场可行、工部确认4-6周可出MCP Server MVP、户部确认4个付费用户即盈亏平衡、礼部完成内容策略和冷启动计划、门下省指出3个被低估风险。最终结论：有条件批准，MCP Server上线6周内需验证GitHub≥200Stars或安装量≥500。",
+      "originalContent": "百斗柜产品计划报告完成。三省六部联席会议产出：中书省确认市场可行、工部确认4-6周可出MCP Server MVP、户部确认4个付费用户即盈亏平衡、礼部完成内容策略和冷启动计划、门下省指出3个被低估风险。最终结论：有条件批准，MCP Server上线6周内需验证GitHub≥200Stars或安装量≥500。",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "百斗柜产品计划获批",
+      "keywords": [
+        "百斗柜",
+        "MCP Server",
+        "产品计划"
+      ],
+      "storedBy": "项目进度-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-24T00:58:46.050Z",
+    "path": [
+      "项目进度"
+    ]
+  }
+}

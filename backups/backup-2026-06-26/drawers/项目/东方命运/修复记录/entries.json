@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "id": "319a2f0d-374a-4513-ab14-e50932ee03e5",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "修复记录"
+      ],
+      "timestamp": "2026-06-09T06:09:01.246Z",
+      "content": "2026-06-09 富贵虾检查百斗柜迁移结果：功能正常，环境变量已配",
+      "originalContent": "2026-06-09 富贵虾检查百斗柜迁移结果：功能正常，环境变量已配",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "富贵虾检查百斗柜迁移结果",
+      "keywords": [
+        "富贵虾",
+        "百斗柜",
+        "迁移"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "32172fcd-1613-4e5e-94c8-655f9460148e",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "修复记录"
+      ],
+      "timestamp": "2026-06-12T03:16:33.094Z",
+      "content": "2026-06-12 上午会话：Claude Code 安装+Phase 1 安全加固完成 --drawer 项目/eastern-destiny/日志",
+      "originalContent": "2026-06-12 上午会话：Claude Code 安装+Phase 1 安全加固完成 --drawer 项目/eastern-destiny/日志",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "Claude Code安装及安全加固完成",
+      "keywords": [
+        "Claude Code",
+        "安装",
+        "安全加固"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "e7b6912a-79d8-4534-a103-c43837f9e890",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "修复记录"
+      ],
+      "timestamp": "2026-06-15T06:50:11.097Z",
+      "content": "2026-06-15 独立站全面修复+部署上线完整工作记录 --drawer 工作记录",
+      "originalContent": "2026-06-15 独立站全面修复+部署上线完整工作记录 --drawer 工作记录",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "独立站修复部署上线记录",
+      "keywords": [
+        "独立站",
+        "修复",
+        "部署上线"
+      ],
+      "storedBy": "proj-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-09T06:09:01.245Z",
+    "path": [
+      "项目",
+      "东方命运",
+      "修复记录"
+    ]
+  }
+}

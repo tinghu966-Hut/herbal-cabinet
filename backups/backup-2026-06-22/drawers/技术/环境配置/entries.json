@@ -1,0 +1,49 @@
+{
+  "entries": [
+    {
+      "id": "32f85397-8de7-4e1a-91f6-cfd5b33036d9",
+      "drawerPath": [
+        "技术",
+        "环境配置"
+      ],
+      "timestamp": "2026-06-17T11:48:14.998Z",
+      "content": "Codex在Windows上写文件的正确方式已确认。根治方案：用@''@(单引号PowerShell here-string)代替@\" \\@(双引号)，通过Set-Content写临时.cjs文件，再node执行。关键原因是双引号here-string会把反引号当作转义符吃掉，单引号则原样保留。这个解决方案已写入CODEX_WINDOWS_WRITE.md供Codex参考。 --drawer 技术/环境配置",
+      "originalContent": "Codex在Windows上写文件的正确方式已确认。根治方案：用@''@(单引号PowerShell here-string)代替@\" \\@(双引号)，通过Set-Content写临时.cjs文件，再node执行。关键原因是双引号here-string会把反引号当作转义符吃掉，单引号则原样保留。这个解决方案已写入CODEX_WINDOWS_WRITE.md供Codex参考。 --drawer 技术/环境配置",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "Codex在Windows写文件方案",
+      "keywords": [
+        "Codex",
+        "Windows",
+        "here-string",
+        "Set-Content",
+        "反引号"
+      ],
+      "storedBy": "tech-clerk-1"
+    },
+    {
+      "id": "98e26145-89df-4eee-840a-414e3146cbfe",
+      "drawerPath": [
+        "技术",
+        "环境配置"
+      ],
+      "timestamp": "2026-06-18T03:44:21.409Z",
+      "content": "2026-06-18: Investigated OpenClaw gateway isolated cron jobs aborting around 369s despite timeoutSeconds 600/30. Cause is diagnostics stuckSessionAbortMs no-progress abort-drain threshold defaulting around ~6 minutes. Added diagnostics.stuckSessionAbortMs=900000 to C:\\Users\\Administrator\\.openclaw\\openclaw.json and validated with openclaw config validate --json. Note: openclaw config patch --stdin was rejected by size-drop safety, so used minimal apply_patch. --drawer OpenClaw 运维",
+      "originalContent": "2026-06-18: Investigated OpenClaw gateway isolated cron jobs aborting around 369s despite timeoutSeconds 600/30. Cause is diagnostics stuckSessionAbortMs no-progress abort-drain threshold defaulting around ~6 minutes. Added diagnostics.stuckSessionAbortMs=900000 to C:\\Users\\Administrator\\.openclaw\\openclaw.json and validated with openclaw config validate --json. Note: openclaw config patch --stdin was rejected by size-drop safety, so used minimal apply_patch. --drawer OpenClaw 运维",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "2026-06-18: Investigated OpenClaw gatewa...",
+      "keywords": [
+        "2026-06-18"
+      ],
+      "storedBy": "tech-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-17T11:48:14.998Z",
+    "path": [
+      "技术",
+      "环境配置"
+    ]
+  }
+}

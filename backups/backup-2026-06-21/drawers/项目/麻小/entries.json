@@ -1,0 +1,110 @@
+{
+  "entries": [
+    {
+      "id": "ba0901fd-2586-4a3c-8bfd-16b6f45f9031",
+      "drawerPath": [
+        "项目",
+        "麻小"
+      ],
+      "timestamp": "2026-06-12T03:48:07.902Z",
+      "content": "麻小MX定位确认：一站式AI智能体保姆级解决方案。Windows桌面应用，¥99，面向国内小白用户。目标：超过市面上所有同类产品（QClaw/OneClaw/闲鱼卖家）。正在与Claude Code协作开发中。 --drawer 项目/麻小",
+      "originalContent": "麻小MX定位确认：一站式AI智能体保姆级解决方案。Windows桌面应用，¥99，面向国内小白用户。目标：超过市面上所有同类产品（QClaw/OneClaw/闲鱼卖家）。正在与Claude Code协作开发中。 --drawer 项目/麻小",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "麻小MX定位确认",
+      "keywords": [
+        "麻小MX",
+        "AI智能体",
+        "Windows桌面应用"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "059d2952-f633-4fc6-a3da-f1cb19399d7b",
+      "drawerPath": [
+        "项目",
+        "麻小"
+      ],
+      "timestamp": "2026-06-13T03:47:51.838Z",
+      "content": "麻小MX(v1.0.0)打包完成。安装包和源码已复制到E:\\项目目录。项目开发策略变更：以后所有新开发软件项目都放在E:\\项目目录下。Claude Code目前已通过DeepSeek的/anthropic兼容端点配置成功，可正常使用。三轮审查+Claude Code审查共发现58个问题，P0全部修复，P1已修复大部分。 --drawer 项目/麻小",
+      "originalContent": "麻小MX(v1.0.0)打包完成。安装包和源码已复制到E:\\项目目录。项目开发策略变更：以后所有新开发软件项目都放在E:\\项目目录下。Claude Code目前已通过DeepSeek的/anthropic兼容端点配置成功，可正常使用。三轮审查+Claude Code审查共发现58个问题，P0全部修复，P1已修复大部分。 --drawer 项目/麻小",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "麻小MX打包完成，策略变更",
+      "keywords": [
+        "麻小MX",
+        "打包",
+        "项目目录",
+        "Claude Code",
+        "问题修复"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "7dbcbec2-b59b-4619-82a3-13262e3b117d",
+      "drawerPath": [
+        "项目",
+        "麻小"
+      ],
+      "timestamp": "2026-06-13T05:20:13.254Z",
+      "content": "HUTING确立麻小MX项目工作流：①HUTING告诉我想法要求 → ②我丰富成方案 → ③我和Claude Code讨论方案 → ④方案确定 → ⑤Claude Code担任主开发/主设计人进行生产 → ⑥我审核产出 → ⑦发现问题我和Claude Code再讨论 → ⑧出报告给HUTING → ⑨HUTING拍板。Claude Code是主开发者和主设计人，我负责方案细化+审核+沟通。 --drawer 项目/麻小",
+      "originalContent": "HUTING确立麻小MX项目工作流：①HUTING告诉我想法要求 → ②我丰富成方案 → ③我和Claude Code讨论方案 → ④方案确定 → ⑤Claude Code担任主开发/主设计人进行生产 → ⑥我审核产出 → ⑦发现问题我和Claude Code再讨论 → ⑧出报告给HUTING → ⑨HUTING拍板。Claude Code是主开发者和主设计人，我负责方案细化+审核+沟通。 --drawer 项目/麻小",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "确立麻小MX项目工作流",
+      "keywords": [
+        "麻小MX",
+        "工作流",
+        "Claude Code"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "813268ea-96e1-4055-a3e6-7808d9d12af1",
+      "drawerPath": [
+        "项目",
+        "麻小"
+      ],
+      "timestamp": "2026-06-13T15:02:58.203Z",
+      "content": "麻小激活码机制待实现。逻辑：免费版能看到技能卡片但安装按钮显示'¥99解锁全部'→点击弹出支付引导→用户通过其他方式支付后拿到激活码→在麻小输入激活码，校验通过后写入license.json→解锁所有技能。核心改动：①技能卡片加一个if判断显示安装/解锁按钮 ②激活码校验函数 ③license.json读写。不需要在线验证，离线激活即可。防传播靠机器码绑定（读取硬盘序列号）。改的地方不超过20行代码。等Codex装好后让它实现。 --drawer 项目/麻小",
+      "originalContent": "麻小激活码机制待实现。逻辑：免费版能看到技能卡片但安装按钮显示'¥99解锁全部'→点击弹出支付引导→用户通过其他方式支付后拿到激活码→在麻小输入激活码，校验通过后写入license.json→解锁所有技能。核心改动：①技能卡片加一个if判断显示安装/解锁按钮 ②激活码校验函数 ③license.json读写。不需要在线验证，离线激活即可。防传播靠机器码绑定（读取硬盘序列号）。改的地方不超过20行代码。等Codex装好后让它实现。 --drawer 项目/麻小",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "麻小离线激活码机制设计",
+      "keywords": [
+        "激活码",
+        "离线激活",
+        "机器码绑定",
+        "license.json",
+        "技能解锁"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "3556ad1b-15da-4a2a-92f2-3252c3d278fa",
+      "drawerPath": [
+        "项目",
+        "麻小"
+      ],
+      "timestamp": "2026-06-14T14:41:33.335Z",
+      "content": "2026-06-14 全天工作记录 --drawer 项目/麻小",
+      "originalContent": "2026-06-14 全天工作记录 --drawer 项目/麻小",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "麻小项目全天工作记录",
+      "keywords": [
+        "麻小",
+        "工作记录",
+        "项目"
+      ],
+      "storedBy": "proj-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-12T03:48:07.902Z",
+    "path": [
+      "项目",
+      "麻小"
+    ]
+  }
+}

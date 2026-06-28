@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "id": "96eb17b9-4ae0-4dc7-9337-10a7b37d5394",
+      "drawerPath": [
+        "运营"
+      ],
+      "drawer": "运营",
+      "time": "2026-06-27T06:52:50.135Z",
+      "timestamp": "2026-06-27T06:52:50.135Z",
+      "tags": [],
+      "source": "对话",
+      "reason": "未填写",
+      "content": "HUTING注册了Twitter/X账号 @EasternDestinyAsia，用于Eastern Destiny命理站的社交媒体运营。该账号可用于发布博客同步、SEO外链信号、互动玄学社区。",
+      "originalContent": "HUTING注册了Twitter/X账号 @EasternDestinyAsia，用于Eastern Destiny命理站的社交媒体运营。该账号可用于发布博客同步、SEO外链信号、互动玄学社区。",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "注册命理站社交媒体账号",
+      "keywords": [
+        "HUTING",
+        "Eastern Destiny",
+        "Twitter/X"
+      ],
+      "storedBy": "运营-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-27T06:52:50.134Z",
+    "path": [
+      "运营"
+    ]
+  }
+}

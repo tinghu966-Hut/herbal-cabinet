@@ -1,0 +1,55 @@
+2026-06-14 全天完整记录
+
+【重要规则确立】
+HUTING明确了富贵虾的工作原则：
+- 说"让Codex干" → 必须先派Codex → Codex干不了 → 反馈给HUTING等决定
+- 没说"让Codex干" → 自己干
+- 富贵虾的核心职责：确保所有已配置工具（Codex/CC Switch/CherryIN/中转站）保持正常运转
+- 工具出问题直接修，不用问HUTING，修完汇报
+- HUTING花钱装CC Switch、买中转站、配OpenAI，是为了让Codex产出更好结果，不是为了让富贵虾自己干
+
+【Codex + CC Switch + CherryIN 配置】
+- Codex CLI v0.139.0已安装
+- CC Switch v3.16.2已安装，本地代理端口15721
+- CherryIN中转已注册（open.cherryin.ai），API Key已配
+- 最终可用模型：openai/gpt-5-chat（CherryIN有真实通道）
+- 注意：CC Switch会覆盖config.toml，把model改回openai/gpt-5.5（无通道），需手动改回gpt-5-chat
+- auth.json可能被CC Switch改为"PROXY_MANAGED"占位符，属正常代理模式行为
+
+【麻小 MX v1.0.1】
+- 付费激活功能已开发完成：src/license.js（265行）、server.js（+16行）、index.html（+165行）
+- 激活码生成工具：激活码生成器.html（独立HTML，Web Crypto，双击即用）
+- 安装包：麻小-Setup-1.0.1.exe（97MB，NSIS打包）
+- Git tag v1.0.1
+- 产物：E:\项目目录\产物\麻小-MX-v1.0.1\
+- 客服工具：E:\项目目录\产物\激活码生成工具\
+
+【上架准备】
+- 上架指南.txt已写好（面包多+闲鱼流程）
+- 面包多创作者申请中（选编程方向）
+- 小红书运营方案已出（7天内容计划）
+- 小红书内容文件夹已建：E:\项目目录\小红书内容\
+
+【社区运营】
+- Reddit账号u/old_towel141，目标r/iching
+- Quora已回复2个问题
+- Reddit已回复1条用户跟进
+- 桌面监控文件夹：C:\Users\admin\Desktop\社区监控\
+- 监控定时任务已部署：每天10:00自动检查Reddit/Quora新帖，推飞书
+- 明天计划：装Playwright实现Reddit/Quora全自动运营
+
+【独立站easterndestiny.asia】
+- 所有核心页面正常（首页/易经/八字/紫微/登录/注册）
+- 缺失：/pricing定价页面404，PayPal支付链接入口缺失
+- 待修复：新建定价页面展示三个套餐
+
+【费用】
+- CherryIN已充值
+- Codex调用gpt-5-chat约$0.05
+- 预算范围内
+
+【明天待办】
+1. copywriter-agent写小红书文案（7天）
+2. image-agent配图
+3. 装Playwright实现Reddit/Quora自动化
+4. 修复独立站定价页面

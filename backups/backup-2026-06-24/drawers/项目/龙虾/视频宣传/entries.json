@@ -1,0 +1,141 @@
+{
+  "entries": [
+    {
+      "id": "e7bd1424-abc7-41f3-88e8-f07fe32ab0b9",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "视频宣传"
+      ],
+      "timestamp": "2026-06-11T14:09:18.980Z",
+      "content": "2026-06-11 晚上 HUTING 布置作业：\n1. 龙虾技能包定价¥68\n2. 今晚思考：视频做给谁看、在什么平台、怎么吸引人、怎么让人愿意买\n3. 参考ComfyUI视频的结构：动画钩人→展示价值→引导消费\n4. 明天早上给她完整方案\n5. 即梦API已打通（JimengTI2VV30PROSubmitTask + 中文prompt + HMAC-SHA256签名）\n6. AK/SK已确认可用，iam权限已加 --drawer 项目\\龙虾\\视频宣传",
+      "originalContent": "2026-06-11 晚上 HUTING 布置作业：\n1. 龙虾技能包定价¥68\n2. 今晚思考：视频做给谁看、在什么平台、怎么吸引人、怎么让人愿意买\n3. 参考ComfyUI视频的结构：动画钩人→展示价值→引导消费\n4. 明天早上给她完整方案\n5. 即梦API已打通（JimengTI2VV30PROSubmitTask + 中文prompt + HMAC-SHA256签名）\n6. AK/SK已确认可用，iam权限已加 --drawer 项目\\龙虾\\视频宣传",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "HUTING布置龙虾视频宣传作业",
+      "keywords": [
+        "龙虾技能包",
+        "视频宣传",
+        "ComfyUI",
+        "即梦API"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "4379421b-0224-41e6-8378-463b3b285057",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "视频宣传"
+      ],
+      "timestamp": "2026-06-11T14:10:00.293Z",
+      "content": "2026-06-11 晚 HUTING 布置了龙虾宣传方案作业，已写完完整方案并存入 memory/lobster-promotion-plan-2026-06-11.md。\\n\\n核心思考：\\n- 目标用户：想用AI但用不好的人\\n- 主力平台：抖音（15秒竖版）+ B站（完整版）+小红书（图文长尾）\\n- 视频结构：钩子(痛点共鸣) → 故事冲突 → 转机 → 变身+实操展示 → 收尾转化\\n- 定价¥68的逻辑：不是工具的价格，是 试一下的价格\\n- 关键改进：掺入真实操作画面（录屏），动画只是引子不是主体\\n- 之前犯的错：技术实现当产品、没有用户视角、没有平台适配、没有转化路径 --drawer 项目\\龙虾\\视频宣传",
+      "originalContent": "2026-06-11 晚 HUTING 布置了龙虾宣传方案作业，已写完完整方案并存入 memory/lobster-promotion-plan-2026-06-11.md。\\n\\n核心思考：\\n- 目标用户：想用AI但用不好的人\\n- 主力平台：抖音（15秒竖版）+ B站（完整版）+小红书（图文长尾）\\n- 视频结构：钩子(痛点共鸣) → 故事冲突 → 转机 → 变身+实操展示 → 收尾转化\\n- 定价¥68的逻辑：不是工具的价格，是 试一下的价格\\n- 关键改进：掺入真实操作画面（录屏），动画只是引子不是主体\\n- 之前犯的错：技术实现当产品、没有用户视角、没有平台适配、没有转化路径 --drawer 项目\\龙虾\\视频宣传",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "龙虾宣传方案作业完成",
+      "keywords": [
+        "龙虾宣传",
+        "方案",
+        "抖音",
+        "B站",
+        "小红书",
+        "定价68元"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "2e646aae-ea69-4a11-a73f-0fcb7c751fe1",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "视频宣传"
+      ],
+      "timestamp": "2026-06-12T06:40:05.326Z",
+      "content": "完成了《三省六部·富贵虾 架构白皮书》的撰写，存于 ai-agent-consulting/architecture-whitepaper.md。基于现有SOUL.md+Edict项目设计，包含6章：设计理念、全景架构图(ASCII Art)、19个Agent详细定义、4个场景工作流、麻小MX集成方案、与Edict对比。 --drawer 架构设计",
+      "originalContent": "完成了《三省六部·富贵虾 架构白皮书》的撰写，存于 ai-agent-consulting/architecture-whitepaper.md。基于现有SOUL.md+Edict项目设计，包含6章：设计理念、全景架构图(ASCII Art)、19个Agent详细定义、4个场景工作流、麻小MX集成方案、与Edict对比。 --drawer 架构设计",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "完成富贵虾架构白皮书撰写",
+      "keywords": [
+        "架构白皮书",
+        "三省六部",
+        "富贵虾",
+        "Agent定义"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "a64e7360-d339-4468-8d52-ccc5eb0acaae",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "视频宣传"
+      ],
+      "timestamp": "2026-06-15T12:13:27.677Z",
+      "content": "2026-06-15 晚上 小红书改方向。之前做了情感故事线(离婚失业女性)，现在改技术日记线(养龙虾日记)。第一篇写的是装OpenClaw踩坑→装国产龙虾→用了一个月发现不行。已经定稿存稿，配图未生成(API报错)。 --drawer 今日完结",
+      "originalContent": "2026-06-15 晚上 小红书改方向。之前做了情感故事线(离婚失业女性)，现在改技术日记线(养龙虾日记)。第一篇写的是装OpenClaw踩坑→装国产龙虾→用了一个月发现不行。已经定稿存稿，配图未生成(API报错)。 --drawer 今日完结",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "小红书改技术日记线",
+      "keywords": [
+        "小红书",
+        "技术日记",
+        "养龙虾"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "5c964c65-c9f3-4a2f-84ab-e208e4c1386d",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "视频宣传"
+      ],
+      "timestamp": "2026-06-17T10:25:16.200Z",
+      "content": "HUTING口述小红书素材：OpenClaw使用体验。核心观点：①便宜（接DeepSeek性价比高）②需配飞书才能聊天③编程能力不如Claude Code/Codex④养龙虾过程需要磨合⑤记忆功能有缺陷需反复查看⑥搜索能力和方案推荐靠谱，给出便宜完整的方案⑦正在做记忆优化项目（未公开）⑧独立站代码OpenClaw做得快但不完美，Claude Code查出50多项问题⑨建议：从OpenClaw养起，试错成本低，别直接上Codex/Claude Code烧token。素材存在xiaohongshu-drafts/2026-06-17-openclaw-experience.md --drawer 运营/内容创作",
+      "originalContent": "HUTING口述小红书素材：OpenClaw使用体验。核心观点：①便宜（接DeepSeek性价比高）②需配飞书才能聊天③编程能力不如Claude Code/Codex④养龙虾过程需要磨合⑤记忆功能有缺陷需反复查看⑥搜索能力和方案推荐靠谱，给出便宜完整的方案⑦正在做记忆优化项目（未公开）⑧独立站代码OpenClaw做得快但不完美，Claude Code查出50多项问题⑨建议：从OpenClaw养起，试错成本低，别直接上Codex/Claude Code烧token。素材存在xiaohongshu-drafts/2026-06-17-openclaw-experience.md --drawer 运营/内容创作",
+      "sourceLang": "zh",
+      "type": "idea",
+      "summary": "OpenClaw使用体验与建议",
+      "keywords": [
+        "OpenClaw",
+        "使用体验",
+        "编程能力",
+        "记忆功能",
+        "性价比"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "6392f8c4-b991-4b13-b240-510f496f0b46",
+      "drawerPath": [
+        "项目",
+        "龙虾",
+        "视频宣传"
+      ],
+      "timestamp": "2026-06-17T10:29:37.545Z",
+      "content": "HUTING小红书文案已定稿：养龙虾真实体验。推荐做一篇780字不拆分。配图建议：封面用DeepSeek vs Claude Code费用对比截图，内页配养龙虾磨合截图、Claude Code查出的50个bug截图、独立站截图。素材存在E:\\小红书\\2026-06-17-OpenClaw使用体验\" --drawer 运营/内容创作",
+      "originalContent": "HUTING小红书文案已定稿：养龙虾真实体验。推荐做一篇780字不拆分。配图建议：封面用DeepSeek vs Claude Code费用对比截图，内页配养龙虾磨合截图、Claude Code查出的50个bug截图、独立站截图。素材存在E:\\小红书\\2026-06-17-OpenClaw使用体验\" --drawer 运营/内容创作",
+      "sourceLang": "zh",
+      "type": "decision",
+      "summary": "小红书文案定稿及配图建议",
+      "keywords": [
+        "小红书",
+        "文案",
+        "养龙虾",
+        "配图",
+        "Claude Code"
+      ],
+      "storedBy": "proj-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-11T14:09:18.979Z",
+    "path": [
+      "项目",
+      "龙虾",
+      "视频宣传"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "entries": [
+    {
+      "id": "a4d7e5a1-f93b-4632-b399-44cbba159176",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "开发"
+      ],
+      "timestamp": "2026-06-16T01:17:24.655Z",
+      "content": "HUTING验证：Eastern Destiny中英文切换功能正常，无问题。定价页面也待确认。 --drawer 项目/东方命运/开发",
+      "originalContent": "HUTING验证：Eastern Destiny中英文切换功能正常，无问题。定价页面也待确认。 --drawer 项目/东方命运/开发",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "中英文切换功能验证通过",
+      "keywords": [
+        "HUTING验证",
+        "中英文切换",
+        "Eastern Destiny",
+        "定价页面"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "1a936f11-794a-4001-a6b3-9606f516cd46",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "开发"
+      ],
+      "timestamp": "2026-06-16T01:27:07.594Z",
+      "content": "修復網頁定價bug：首頁 pricing-section.tsx 中大師解讀標價  改為 .99（對齊 page.tsx）。Vercel直接部署成功。 --drawer 项目/东方命运/开发",
+      "originalContent": "修復網頁定價bug：首頁 pricing-section.tsx 中大師解讀標價  改為 .99（對齊 page.tsx）。Vercel直接部署成功。 --drawer 项目/东方命运/开发",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "修復首頁定價bug並部署成功",
+      "keywords": [
+        "定價bug",
+        "pricing-section.tsx",
+        "Vercel部署"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "3aad374f-aa25-4ee4-b0be-37ff3c51e5fe",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "开发"
+      ],
+      "timestamp": "2026-06-16T14:05:52.984Z",
+      "content": "定价页面 →.99 bug修复并部署。Codex CLI武装：打通--dangerously-bypass-approvals-and-sandbox文件写权限。Reddit监控脚本+cron(周一三五9:00)。Quora通过Google搜索检测。Playwright+Chrome安装。",
+      "originalContent": "定价页面 →.99 bug修复并部署。Codex CLI武装：打通--dangerously-bypass-approvals-and-sandbox文件写权限。Reddit监控脚本+cron(周一三五9:00)。Quora通过Google搜索检测。Playwright+Chrome安装。 --drawer 项目/东方命运/开发",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "定价页面bug修复及部署，配置Codex CLI，监控脚本安装",
+      "keywords": [
+        "定价页面",
+        "bug修复",
+        "Codex CLI",
+        "Reddit监控",
+        "Playwright"
+      ],
+      "storedBy": "proj-clerk-1"
+    },
+    {
+      "id": "98419af0-5bc3-46f1-810f-9bf299e66a2b",
+      "drawerPath": [
+        "项目",
+        "东方命运",
+        "开发"
+      ],
+      "timestamp": "2026-06-18T12:44:53.265Z",
+      "content": "给 eastern-destiny 添加了 Gift Code 兑换码系统代码：新增 lib/gift-codes.ts（JSON/Redis 双存储、加密随机 ED-XXXXXX-XXX、查询/核销/列表、自执行生成50个码逻辑但未执行），新增 app/api/redeem-gift/route.ts（POST兑换并创建 sage plan gift 订阅，GET admin列码），扩展 lib/sage-subscriptions.ts plan 支持 gift。用户明确要求不要 git push、不要执行生成。 --drawer 项目记录",
+      "originalContent": "给 eastern-destiny 添加了 Gift Code 兑换码系统代码：新增 lib/gift-codes.ts（JSON/Redis 双存储、加密随机 ED-XXXXXX-XXX、查询/核销/列表、自执行生成50个码逻辑但未执行），新增 app/api/redeem-gift/route.ts（POST兑换并创建 sage plan gift 订阅，GET admin列码），扩展 lib/sage-subscriptions.ts plan 支持 gift。用户明确要求不要 git push、不要执行生成。 --drawer 项目记录",
+      "sourceLang": "zh",
+      "type": "discussion",
+      "summary": "给 eastern-destiny 添加了 Gift Code 兑换码系统代码：...",
+      "keywords": [
+        "给 eastern-"
+      ],
+      "storedBy": "proj-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-16T01:17:24.654Z",
+    "path": [
+      "项目",
+      "东方命运",
+      "开发"
+    ]
+  }
+}

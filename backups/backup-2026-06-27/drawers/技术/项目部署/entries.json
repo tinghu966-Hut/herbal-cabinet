@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "id": "ee82ad76-1079-4b3c-8f7a-3ca42568c503",
+      "drawerPath": [
+        "技术",
+        "项目部署"
+      ],
+      "timestamp": "2026-06-10T12:35:56.186Z",
+      "content": "2026-06-10 技术操作：LM Studio 0.4.16已卸载(RTX 5060 Ti 4GB显存跑本地大模型压力大，HUTING决定先不用)。新电脑环境清理完成。 --drawer 技术/项目部署",
+      "originalContent": "2026-06-10 技术操作：LM Studio 0.4.16已卸载(RTX 5060 Ti 4GB显存跑本地大模型压力大，HUTING决定先不用)。新电脑环境清理完成。 --drawer 技术/项目部署",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "卸载LM Studio并清理环境",
+      "keywords": [
+        "LM Studio",
+        "卸载",
+        "环境清理"
+      ],
+      "storedBy": "tech-clerk-1"
+    },
+    {
+      "id": "3e615ad3-cac3-420d-bcdf-b0b997a51ab4",
+      "drawerPath": [
+        "技术",
+        "项目部署"
+      ],
+      "timestamp": "2026-06-10T15:33:32.405Z",
+      "content": "2026-06-10 cron修理：批量修复6个隔离子任务超时问题。根因：isolated cron session加载deepseek模型耗时约120s，导致timeoutSeconds=120的任务永远失败并弹通知。修复：所有daily任务timeout从120→600s，所有周报/检查任务delivery改为none(失败不弹通知)，重新启用已停用的任务。site-health-check和herbal-cabinet-daily已恢复。 --drawer 技术/项目部署",
+      "originalContent": "2026-06-10 cron修理：批量修复6个隔离子任务超时问题。根因：isolated cron session加载deepseek模型耗时约120s，导致timeoutSeconds=120的任务永远失败并弹通知。修复：所有daily任务timeout从120→600s，所有周报/检查任务delivery改为none(失败不弹通知)，重新启用已停用的任务。site-health-check和herbal-cabinet-daily已恢复。 --drawer 技术/项目部署",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "修复隔离子任务超时问题",
+      "keywords": [
+        "cron",
+        "超时",
+        "隔离任务",
+        "deepseek模型",
+        "timeout"
+      ],
+      "storedBy": "tech-clerk-1"
+    },
+    {
+      "id": "4ef4d45f-b7eb-4f60-b9e1-4886d74d1a6b",
+      "drawerPath": [
+        "技术",
+        "项目部署"
+      ],
+      "timestamp": "2026-06-13T09:17:40.828Z",
+      "content": "明天实施方案：①下载安装CC Switch（GitHub Release Windows .msi）②配置DeepSeek现有Key（免费）③选中转商注册充值（CCSub/省算云，微信付¥10-50）④装Codex最新版npm install -g @openai/codex⑤CC Switch开启本地代理+协议转换⑤测试Browser Use（打开Reddit截图）⑥试跑真实运营任务。预计30-60分钟。 --drawer 计划/技术方案",
+      "originalContent": "明天实施方案：①下载安装CC Switch（GitHub Release Windows .msi）②配置DeepSeek现有Key（免费）③选中转商注册充值（CCSub/省算云，微信付¥10-50）④装Codex最新版npm install -g @openai/codex⑤CC Switch开启本地代理+协议转换⑤测试Browser Use（打开Reddit截图）⑥试跑真实运营任务。预计30-60分钟。 --drawer 计划/技术方案",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "实施方案：安装配置AI工具链",
+      "keywords": [
+        "CC Switch",
+        "DeepSeek",
+        "Codex",
+        "Browser Use",
+        "代理配置"
+      ],
+      "storedBy": "tech-clerk-1"
+    },
+    {
+      "id": "e28b305c-c8ef-4fe9-8db1-bc438faca83f",
+      "drawerPath": [
+        "技术",
+        "项目部署"
+      ],
+      "timestamp": "2026-06-14T15:21:49.595Z",
+      "content": "工具状态 --drawer 技术/环境",
+      "originalContent": "工具状态 --drawer 技术/环境",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "工具状态抽屉技术环境",
+      "keywords": [
+        "工具状态",
+        "抽屉",
+        "技术环境"
+      ],
+      "storedBy": "tech-clerk-1"
+    },
+    {
+      "id": "a386eb3f-9be0-4a35-b5e3-63678a069aae",
+      "drawerPath": [
+        "技术",
+        "项目部署"
+      ],
+      "timestamp": "2026-06-16T01:06:45.558Z",
+      "content": "测试新版 3-in-1 批量处理功能，现在只需一次 API 调用即可同时完成翻译、分类、摘要和关键词提取",
+      "originalContent": "测试新版 3-in-1 批量处理功能，现在只需一次 API 调用即可同时完成翻译、分类、摘要和关键词提取",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "测试新版批量处理功能",
+      "keywords": [
+        "批量处理",
+        "API调用",
+        "翻译",
+        "分类",
+        "摘要"
+      ],
+      "storedBy": "tech-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-10T12:35:56.185Z",
+    "path": [
+      "技术",
+      "项目部署"
+    ]
+  }
+}

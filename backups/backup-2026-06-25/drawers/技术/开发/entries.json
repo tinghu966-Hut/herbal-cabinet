@@ -1,0 +1,70 @@
+{
+  "entries": [
+    {
+      "id": "eaa840a2-c7fb-4e1d-9642-13f744c611be",
+      "drawerPath": [
+        "技术",
+        "开发"
+      ],
+      "timestamp": "2026-06-18T13:31:51.839Z",
+      "content": "2026-06-18 技术开发记录：独立站兑换码系统\n\n1. 开发了独立站gift-codes兑换码系统：lib/gift-codes.ts（生成/查询/核销，JSON+Redis双存储模式，与现有user/subscription系统一致）+ app/api/redeem-gift/route.ts（POST兑换+GET admin查询）\n2. 修改了lib/sage-subscriptions.ts订阅类型，新增'gift'类型（plan: monthly|quarterly|annual|gift）\n3. 生成了50个兑换码（格式ED-XXXXXX-XXX），存于data/gift-codes.json\n4. 用户兑换流程：输入码→API验证→标记已用→自动创建gift类型订阅→享受年卡权益\n5. 构建验证通过（tsc --noEmit无报错），待部署到Vercel --drawer 技术/开发",
+      "originalContent": "2026-06-18 技术开发记录：独立站兑换码系统\n\n1. 开发了独立站gift-codes兑换码系统：lib/gift-codes.ts（生成/查询/核销，JSON+Redis双存储模式，与现有user/subscription系统一致）+ app/api/redeem-gift/route.ts（POST兑换+GET admin查询）\n2. 修改了lib/sage-subscriptions.ts订阅类型，新增'gift'类型（plan: monthly|quarterly|annual|gift）\n3. 生成了50个兑换码（格式ED-XXXXXX-XXX），存于data/gift-codes.json\n4. 用户兑换流程：输入码→API验证→标记已用→自动创建gift类型订阅→享受年卡权益\n5. 构建验证通过（tsc --noEmit无报错），待部署到Vercel --drawer 技术/开发",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "独立站兑换码系统开发记录",
+      "keywords": [
+        "兑换码",
+        "独立站",
+        "gift-codes",
+        "订阅系统",
+        "API"
+      ],
+      "storedBy": "tech-clerk-1"
+    },
+    {
+      "id": "ee061483-1dad-444a-a617-21b01cbdd497",
+      "drawerPath": [
+        "技术",
+        "开发"
+      ],
+      "timestamp": "2026-06-18T13:32:51.914Z",
+      "content": "2026-06-18 兑换码系统完成但暂不测试。代码已写好（lib/gift-codes.ts + app/api/redeem-gift/route.ts），50个码已生成存于data/gift-codes.json，构建验证通过。待HUTING发小红书后再联调测试。当前不测。 --drawer 技术/待办",
+      "originalContent": "2026-06-18 兑换码系统完成但暂不测试。代码已写好（lib/gift-codes.ts + app/api/redeem-gift/route.ts），50个码已生成存于data/gift-codes.json，构建验证通过。待HUTING发小红书后再联调测试。当前不测。 --drawer 技术/待办",
+      "sourceLang": "zh",
+      "type": "tech_note",
+      "summary": "兑换码系统完成待测试",
+      "keywords": [
+        "兑换码",
+        "系统完成",
+        "待测试",
+        "代码",
+        "构建验证"
+      ],
+      "storedBy": "tech-clerk-1"
+    },
+    {
+      "id": "9822cd58-2174-4e45-af4f-9e75dd4511d3",
+      "drawerPath": [
+        "技术",
+        "开发"
+      ],
+      "timestamp": "2026-06-20T07:55:22.284Z",
+      "content": "已根据用户请求创建 C:\\Users\\admin\\.openclaw\\workspace\\codex-test.txt，内容为“hello world”。",
+      "originalContent": "Created C:\\Users\\admin\\.openclaw\\workspace\\codex-test.txt containing 'hello world' per user request. --drawer workspace-actions",
+      "sourceLang": "en",
+      "type": "discussion",
+      "summary": "已根据用户请求创建 C:\\Users\\admin\\.openclaw\\works...",
+      "keywords": [
+        "已根据用户请求创建 "
+      ],
+      "storedBy": "tech-clerk-1"
+    }
+  ],
+  "metadata": {
+    "created": "2026-06-18T13:31:51.839Z",
+    "path": [
+      "技术",
+      "开发"
+    ]
+  }
+}
