@@ -1,11 +1,37 @@
 # 🏪 Herbal Cabinet (百斗柜)
 
-> **A local-first memory container for humans and AI — structured, searchable, and yours to own.**
-> _人机共用的本地记忆容器_
+> **A local-first memory container for humans and AI agents — structured, searchable, and yours to own.**
+> _人机共用的本地记忆容器 | 零外部依赖 · 纯 Node.js · BYOK_
 
-Inspired by traditional Chinese apothecary cabinets — a wall of wooden drawers, each holding one herb. The shopkeeper knows where everything is, and when a customer comes with a prescription, they find it in seconds.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
+![Dependencies](https://img.shields.io/badge/dependencies-0-blue)
+
+**Inspired by traditional Chinese apothecary cabinets** — a wall of wooden drawers, each holding one herb. The shopkeeper knows where everything is, and when a customer comes with a prescription, they find it in seconds.
 
 Herbal Cabinet brings this logic to the AI world: **Cabinet → Drawer → Entry**, structured, searchable, and fully under your control.
+
+---
+
+## 🎥 Demo
+
+```bash
+# Store a memory with AI classification
+$ node src/cli.js store "Discussed switching from Stripe to PayPal" -D "Business > Payments" -T "decision,payment"
+
+🧑💼 掌柜收到: "Discussed switching from Stripe to PayPal"
+  📂 Dashboard > Payments
+  📝 Classified as: decision
+  💾 Saved ✅
+
+# Recall it later — no need to remember the exact words
+$ node src/cli.js recall "payment method change"
+
+  [1] 📁 Business > Payments
+      时间: 2026-06-28
+      摘要: Decided to switch payment provider from Stripe to PayPal
+      标签: decision, payment
+```
 
 ---
 
@@ -38,67 +64,67 @@ Herbal Cabinet brings this logic to the AI world: **Cabinet → Drawer → Entry
 
 ## 🚀 Quick Start
 
-### Prerequisites
-
-- **Node.js** 18+
-- An **AI API key** for content classification. Currently supports DeepSeek (default) or any OpenAI-compatible API.
-
-### Install
-
 ```bash
-# Clone or download
-git clone <repo-url> herbal-cabinet
+# 1. Clone (or just download, no install needed)
+git clone https://github.com/tinghu966-Hut/herbal-cabinet.git
 cd herbal-cabinet
 
-# Or use directly (no install)
-node src/cli.js
+# 2. Set your API key (DeepSeek has a free tier)
+export DEEPSEEK_API_KEY=sk-your-key
+
+# 3. Try it:
+node src/cli.js status
 ```
 
-### Configure API Key
+That's it. Zero dependencies. No `npm install`, no Docker, no database.
 
-Set your API key as an environment variable:
-
-```bash
-# DeepSeek (recommended)
-export DEEPSEEK_API_KEY=sk-your-deepseek-key
-
-# Or OpenAI-compatible
-export OPENAI_API_KEY=sk-your-openai-key
-
-# Optional: custom API endpoint (e.g., local proxy)
-export OPENAI_BASE_URL=http://localhost:15721
-
-# Optional: set language to English
-export HERBAL_LANG=en
-```
-
-> **No API key?** The tool needs AI to classify and summarize content. DeepSeek offers a free tier with sufficient credits to get started.
-
-### Initialize (optional)
-
-Creates sample data so you can explore immediately:
+### Full Example
 
 ```bash
+# Initialize with sample data to explore
 node src/cli.js init
-```
 
-### Basic Usage
+# Store a memory — AI auto-classifies it into the right drawer
+node src/cli.js store "Discussed product direction" -D "Project > Product"
 
-```bash
-# Storage
-node src/cli.js store "Discussed product direction today" -D "Project > Product" -T "discussion,product"
-
-# Search
-node src/cli.js recall "product direction"
-
-# Cross-drawer search
-node src/cli.js rc "memory system"
+# Search — keyword match + time decay ranking
+node src/cli.js recall "product"
 
 # System status
 node src/cli.js status
+```
 
-# Rebuild search index
-node src/cli.js reindex
+> **No API key?** DeepSeek offers a free tier with enough credits to start. Or use any OpenAI-compatible API.
+
+**Output example:**
+```
+🏪 百斗柜 · 系统状态
+
+📦 柜子: 1 个
+  📦 default: 38 个活跃抽屉, 125 条记录
+
+📊 倒排索引: 1240 个关键词, 4783 条引用
+
+🏷️  热门标签:
+  百斗柜 — 3条
+  产品重构 — 1条
+  定价 — 1条
+  💻 服务:
+  CLI:  node src/cli.js
+  API:  node src/server.js [port]
+```
+
+### Other Environments
+
+```bash
+# PowerShell / Windows
+export $env:DEEPSEEK_API_KEY="sk-your-key"
+
+# English output
+set HERBAL_LANG=en
+
+# Custom API endpoint (e.g., local proxy)
+set OPENAI_BASE_URL=http://localhost:15721
 ```
 
 ---
